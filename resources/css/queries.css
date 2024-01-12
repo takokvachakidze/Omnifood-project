@@ -1,0 +1,58 @@
+/*big tablet to 1200px*/
+@media screen and (max-width: 1200px) {
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+  .main-nav {
+    display: none;
+  }
+  .row {
+    padding: 0 2%;
+  }
+}
+
+/*small tablet to big tablets:from 768px to 1023*/
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 18px;
+  }
+  section {
+    padding: 50px 0;
+  }
+  .long-copy {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .steps-box:last-child {
+    margin-top: 40px;
+  }
+  .app-screen {
+    width: 50%;
+  }
+  .icon-small {
+    width: 15px;
+  }
+}
+
+/*small phone to small tablets:from 418px to 767*/
+@media only screen and (max-width: 767px) {
+}
+
+/*small phone:from 0 to 480px*/
+@media only screen and (max-width: 480px) {
+  .app-screen {
+    float: left;
+    width: 80%;
+  }
+  .work-steps {
+    margin-top: 10px;
+  }
+  .icon-big {
+    font-size: 40px;
+  }
+  h1 {
+    font-size: 150%;
+    margin-bottom: 30px;
+  }
+}
